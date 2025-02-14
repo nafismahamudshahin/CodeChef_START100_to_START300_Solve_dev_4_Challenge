@@ -15,6 +15,7 @@ int main(){
         for(auto i:v){
             if(i<=4) possible = false;
         }
+        
         cout<<(possible?"YES":"NO")<<endl;
     }
     return 0;
