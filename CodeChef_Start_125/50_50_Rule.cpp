@@ -10,9 +10,11 @@ int main(){
     while(t--){
         int attendense,mark;
         cin>>attendense>>mark;
-        if(attendense<50) cout<<"Z"<<endl;
-        else if(mark<50 && attendense>=50) cout<<"F"<<endl;
-        else cout<<"A"<<endl;
+        if(attendense<50){ 
+            cout<<"Z"<<endl;
+        }else if(mark<50 && attendense>=50){
+            cout<<"F"<<endl;
+        }else cout<<"A"<<endl;
     }
     return 0;
 }
