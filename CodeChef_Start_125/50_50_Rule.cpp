@@ -14,10 +14,8 @@ int main(){
             cout<<"Z"<<endl;
         }else if(mark<50 && attendense>=50){
             cout<<"F"<<endl;
-        }else{
-            cout<<"A"<<endl;
+        }else cout<<"A"<<endl;
     
-        }
     }
     return 0;
 }
